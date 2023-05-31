@@ -1,0 +1,61 @@
+html {
+    background-color: green;
+}
+
+h1 {
+    color: white;
+}
+/*centering styles*/
+.textcenter {
+    text-align: center;
+}
+p {
+    padding-left: 5%;
+}
+/* image styles */
+img {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border: solid 3px darkgreen;
+    object-fit: cover;
+}
+
+.image {
+    text-align: center;
+    padding: 10px;
+}
+
+/* table styles */
+table {
+    width: 600px;
+    background-color: lightgreen;
+}
+
+table,
+th,
+td {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+caption {
+    color: white;
+    caption-side: bottom;
+}
+/* a styles */
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
